@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/resistor-color-code-calculator/static/css/main.6135fed6.chunk.css",
+    "main.js": "/resistor-color-code-calculator/static/js/main.092f9b63.chunk.js",
+    "main.js.map": "/resistor-color-code-calculator/static/js/main.092f9b63.chunk.js.map",
+    "runtime-main.js": "/resistor-color-code-calculator/static/js/runtime-main.63568d77.js",
+    "runtime-main.js.map": "/resistor-color-code-calculator/static/js/runtime-main.63568d77.js.map",
+    "static/js/2.c1390537.chunk.js": "/resistor-color-code-calculator/static/js/2.c1390537.chunk.js",
+    "static/js/2.c1390537.chunk.js.map": "/resistor-color-code-calculator/static/js/2.c1390537.chunk.js.map",
+    "index.html": "/resistor-color-code-calculator/index.html",
+    "static/css/main.6135fed6.chunk.css.map": "/resistor-color-code-calculator/static/css/main.6135fed6.chunk.css.map",
+    "static/js/2.c1390537.chunk.js.LICENSE.txt": "/resistor-color-code-calculator/static/js/2.c1390537.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63568d77.js",
+    "static/js/2.c1390537.chunk.js",
+    "static/css/main.6135fed6.chunk.css",
+    "static/js/main.092f9b63.chunk.js"
+  ]
+}
