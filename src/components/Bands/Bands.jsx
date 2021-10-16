@@ -11,17 +11,19 @@ const Bands = () => {
   const dispatch = useDispatch();
 
   const changeTab = (band) => {
-    band !== selectedTab &&
+    if (band !== selectedTab)
       dispatch({ type: actionTypes.BAND_CHANGED, payload: band });
+    dispatch({ type: actionTypes.MODEL_CHANGED, payload: 1 });
   };
 
   const tabs = bandCount.map((band) => {
     return (
       <p
+        key={band}
         className={selectedTab === band ? "active" : null}
         onClick={() => changeTab(band)}
       >
-        {band}_Bands
+        {band}_bands
       </p>
     );
   });

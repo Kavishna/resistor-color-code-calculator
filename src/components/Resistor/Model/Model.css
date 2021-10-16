@@ -1,0 +1,45 @@
+.model {
+  box-sizing: content-box;
+  width: 260px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  border: 1px solid #00aa39;
+  color: aliceblue;
+}
+
+.model > h4 {
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(260px / 4);
+  margin: 5px 0;
+  background-color: transparent;
+}
+
+.container > p {
+  font-size: 10px;
+  margin-top: 4px;
+  background-color: transparent;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}

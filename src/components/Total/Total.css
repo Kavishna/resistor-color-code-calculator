@@ -1,0 +1,34 @@
+.calculated-value {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  margin-top: 20px;
+  color: aliceblue;
+}
+
+.calculated-value h3 {
+  font-size: 20px;
+  background-color: transparent;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.calculated-value h1 {
+  background-color: transparent;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.calculated-value p {
+  background-color: transparent;
+}
+.calculated-value p {
+  text-align: center;
+  margin: 10px 0;
+}
